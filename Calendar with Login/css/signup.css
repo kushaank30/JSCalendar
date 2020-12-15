@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: url(../images/BGfinal.jpg);
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+  /* The placeholder-shown CSS pseudi-class represents any <input> or <textarea> element that is currently displaying placeholder text  */
+}
+
+form .formBG {
+  background-color: black;
+  width: 27%;
+  height: 600px;
+  opacity: .8;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+form p#signup {
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 1.2rem;
+}
+
+form p#signupError {
+  color: red;
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: .9rem;
+}
+
+form p#signupSuccess {
+  color: #01ce01;
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: .9rem;
+}
+
+form .form-group_username {
+  width: 20%;
+  /* for centering the form-group */
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+form .form-group_fullName {
+  width: 20%;
+  /* for centering the form-group */
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+form .form-group_email {
+  width: 20%;
+  /* for centering the form-group */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+form .form-group_pwd {
+  width: 20%;
+  /* for centering the form-group */
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+form .form-group_pwd_repeat {
+  width: 20%;
+  /* for centering the form-group */
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+form input {
+  display: block;
+  width: 100%;
+  color: #eee;
+  border: none;
+  border-bottom: 2px solid #eee;
+  background-color: transparent;
+  padding: 12px;
+  outline: none;
+}
+
+form label {
+  position: absolute;
+  top: -40%;
+  left: 0;
+  opacity: 1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: Verdana;
+  font-size: 13px;
+  color: #eee;
+}
+
+form input:placeholder-shown + label {
+  top: 20%;
+  left: 12px;
+  opacity: 0;
+}
+
+form button {
+  background: white;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background-color: #ff57e3;
+  color: white;
+}
+
+form input:placeholder-shown {
+  color: white;
+}
+
+form :-ms-input-placeholder {
+  color: white;
+}
+
+form ::-webkit-input-placeholder {
+  color: white;
+}
+
+form :-moz-placeholder {
+  color: white;
+}
+
+form .oldUser {
+  text-decoration: none;
+  color: grey;
+  font-size: .8rem;
+  padding: 10px;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+form .oldUser:hover {
+  color: #d1d1d1;
+}
+/*# sourceMappingURL=signup.css.map */
